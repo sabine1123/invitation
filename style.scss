@@ -220,14 +220,24 @@ body {
             }
         }
     }
-    .location {
+    .info {
         font-size: 12px;
         margin: 18px auto;
-        max-width: 155px;
+        max-width: 245px;
+        font-family: 'Noto Sans TC', sans-serif;
         ul {
             li {
-                line-height: 1.5;
-                text-align: center;
+                line-height: 1.3;
+                letter-spacing: 1.5px;
+            }
+        }
+        a {
+            color: #564f47;
+            &:visited {
+                color: #564f47;
+            }
+            &:hover, &:active {
+                color: $c-main;
             }
         }
     }
