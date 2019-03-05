@@ -88,8 +88,8 @@ body {
             .squrWrap {
                 position: relative;
                 .squr {
-                    width: 35px;
-                    height: 35px;
+                    width: 65px;
+                    height: 65px;
                     background-color: $c-main;
                     transform: rotate(45deg);
                     border: 3px solid $c-sub;
@@ -100,12 +100,13 @@ body {
                 }
                 span {
                     position: absolute;
-                    top: 0;
                     color: $c-sub;
-                    font-family: 'Amiri', serif;
+                    // font-family: 'Amiri', serif;
+                    font-family: 'Dancing Script', cursive;
                     font-size: 24px;
-                    left: 7px;
-                    top: 9px;
+                    left: 4px;
+                    top: 20px;
+                    letter-spacing: 1px;
                 }
 
             }
@@ -152,7 +153,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        // font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         .text {
             border: 2px solid $c-main;
@@ -221,9 +222,9 @@ body {
         }
     }
     .info {
-        font-size: 12px;
+        font-size: 13px;
         margin: 18px auto;
-        max-width: 245px;
+        max-width: 265px;
         font-family: 'Noto Sans TC', sans-serif;
         ul {
             li {

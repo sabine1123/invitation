@@ -113,8 +113,8 @@ body:after {
 }
 
 .box .content .mainDec .squrWrap .squr {
-  width: 35px;
-  height: 35px;
+  width: 65px;
+  height: 65px;
   background-color: #e05a63;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -138,12 +138,12 @@ body:after {
 
 .box .content .mainDec .squrWrap span {
   position: absolute;
-  top: 0;
   color: #f5f5f1;
-  font-family: 'Amiri', serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 24px;
-  left: 7px;
-  top: 9px;
+  left: 4px;
+  top: 20px;
+  letter-spacing: 1px;
 }
 
 .box .content .mainDec .mainPic {
@@ -198,7 +198,6 @@ body:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -275,9 +274,9 @@ body:after {
 }
 
 .box .info {
-  font-size: 12px;
+  font-size: 13px;
   margin: 18px auto;
-  max-width: 245px;
+  max-width: 265px;
   font-family: 'Noto Sans TC', sans-serif;
 }
 
