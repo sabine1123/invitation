@@ -56,7 +56,7 @@ body {
                 bottom: 0;
             }
             .dec {
-                width: 80px;
+                width: 50px;
                 position: absolute;
                 
                 &.decT {
@@ -78,18 +78,22 @@ body {
                     transform: rotateY(180deg);
                     right: 5px;
                 }
+                @media screen and (min-width:768px) {
+                    width: 80px;
+                }
             }
         }
         .mainDec {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 30px;
+            padding-top: 10px;
             .squrWrap {
                 position: relative;
+                display: none;
                 .squr {
-                    width: 65px;
-                    height: 65px;
+                    width: 50px;
+                    height: 50px;
                     background-color: $c-main;
                     transform: rotate(45deg);
                     border: 3px solid $c-sub;
@@ -97,25 +101,42 @@ body {
                     &:after {
                         @include bgimg;
                     }
+
                 }
                 span {
                     position: absolute;
                     color: $c-sub;
                     // font-family: 'Amiri', serif;
                     font-family: 'Dancing Script', cursive;
-                    font-size: 24px;
-                    left: 4px;
-                    top: 20px;
+                    font-size: 20px;
+                    left: 2px;
+                    top: 15px;
                     letter-spacing: 1px;
                 }
-
             }
             .mainPic {
-                width: 140px;
+                width: 130px;
                 margin: 0 35px;
                 img {
                     width: 100%;
                 }
+            }
+            @media screen and (min-width:768px) {
+                padding-top: 30px;
+                .squrWrap {
+                    display: block;
+                    .squr {
+                        width: 65px;
+                        height: 65px;     
+                    }
+                    span {
+                        font-size: 24px;
+                        top: 20px;
+                    }     
+                }
+                .mainPic {
+                    width: 140px;
+                }              
             }
         }
         .title {

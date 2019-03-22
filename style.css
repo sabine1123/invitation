@@ -64,7 +64,7 @@ body:after {
 }
 
 .box .content .decWrap .dec {
-  width: 80px;
+  width: 50px;
   position: absolute;
 }
 
@@ -95,6 +95,12 @@ body:after {
   right: 5px;
 }
 
+@media screen and (min-width: 768px) {
+  .box .content .decWrap .dec {
+    width: 80px;
+  }
+}
+
 .box .content .mainDec {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,16 +111,17 @@ body:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .box .content .mainDec .squrWrap {
   position: relative;
+  display: none;
 }
 
 .box .content .mainDec .squrWrap .squr {
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   background-color: #e05a63;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -140,19 +147,39 @@ body:after {
   position: absolute;
   color: #f5f5f1;
   font-family: 'Dancing Script', cursive;
-  font-size: 24px;
-  left: 4px;
-  top: 20px;
+  font-size: 20px;
+  left: 2px;
+  top: 15px;
   letter-spacing: 1px;
 }
 
 .box .content .mainDec .mainPic {
-  width: 140px;
+  width: 130px;
   margin: 0 35px;
 }
 
 .box .content .mainDec .mainPic img {
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .box .content .mainDec {
+    padding-top: 30px;
+  }
+  .box .content .mainDec .squrWrap {
+    display: block;
+  }
+  .box .content .mainDec .squrWrap .squr {
+    width: 65px;
+    height: 65px;
+  }
+  .box .content .mainDec .squrWrap span {
+    font-size: 24px;
+    top: 20px;
+  }
+  .box .content .mainDec .mainPic {
+    width: 140px;
+  }
 }
 
 .box .content .title {
