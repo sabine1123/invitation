@@ -1,0 +1,26 @@
+{
+  "name": "invitation",
+  "version": "1.0.0",
+  "description": "invitation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabine1123/invitation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabine1123/invitation/issues"
+  },
+  "homepage": "https://github.com/sabine1123/invitation#readme",
+  "devDependencies": {
+    "gulp-compass": "^2.1.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
