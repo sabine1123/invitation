@@ -131,10 +131,35 @@ body {
       text-align: center;
       padding: 0px 15px; }
       .box .content .description ul {
+        display: none;
         margin: 0 auto;
         padding: 0 5px; }
+        @media screen and (min-width: 768px) {
+          .box .content .description ul {
+            display: block; } }
         .box .content .description ul li {
           line-height: 1.3; }
+      .box .content .description textarea {
+        line-height: 1.3;
+        border: none;
+        resize: none;
+        background-color: transparent;
+        font-size: 13px;
+        font-family: 'Noto Sans TC', sans-serif;
+        text-align: left;
+        max-width: 260px;
+        width: 100%;
+        padding: 0 10px;
+        outline: none;
+        color: #564f47;
+        display: none; }
+        @media screen and (max-width: 767px) {
+          .box .content .description textarea {
+            display: block;
+            margin-right: auto;
+            margin-left: auto; } }
+        .box .content .description textarea:focus {
+          outline: none; }
       @media screen and (min-width: 768px) {
         .box .content .description ul li {
           line-height: 1.5; } }
