@@ -152,6 +152,7 @@ body {
         padding: 0 10px;
         outline: none;
         color: #564f47;
+        word-break: break-all;
         display: none; }
         @media screen and (max-width: 767px) {
           .box .content .description textarea {
